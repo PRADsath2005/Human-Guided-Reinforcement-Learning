@@ -1,0 +1,51 @@
+Seed,Layout,Method,Obstacle Count,Training Success Rate (%),Training Average Steps,Evaluation Success Rate (%),Evaluation Average Steps
+11,1,Baseline Q-Learning,4,94.69999999999999,17.5311510031679,100.0,8
+11,1,Simulated Feedback-Guided Q-Learning,4,94.8,17.137130801687764,100.0,8
+11,2,Baseline Q-Learning,4,98.7,17.2016210739615,100.0,8
+11,2,Simulated Feedback-Guided Q-Learning,4,98.6,17.41176470588235,100.0,8
+11,3,Baseline Q-Learning,4,96.89999999999999,17.02579979360165,100.0,8
+11,3,Simulated Feedback-Guided Q-Learning,4,96.8,17.628099173553718,100.0,8
+11,4,Baseline Q-Learning,4,98.7,16.917933130699087,100.0,8
+11,4,Simulated Feedback-Guided Q-Learning,4,98.5,17.171573604060914,100.0,8
+11,5,Baseline Q-Learning,4,98.7,17.542046605876394,100.0,8
+11,5,Simulated Feedback-Guided Q-Learning,4,99.0,17.692929292929293,100.0,8
+22,1,Baseline Q-Learning,4,97.8,17.478527607361965,100.0,8
+22,1,Simulated Feedback-Guided Q-Learning,4,97.6,16.975409836065573,100.0,8
+22,2,Baseline Q-Learning,4,95.5,17.8869109947644,100.0,8
+22,2,Simulated Feedback-Guided Q-Learning,4,95.39999999999999,18.243186582809223,100.0,8
+22,3,Baseline Q-Learning,4,99.0,16.69090909090909,100.0,8
+22,3,Simulated Feedback-Guided Q-Learning,4,98.8,16.738866396761132,100.0,8
+22,4,Baseline Q-Learning,4,97.0,17.239175257731958,100.0,8
+22,4,Simulated Feedback-Guided Q-Learning,4,97.0,17.210309278350515,100.0,8
+22,5,Baseline Q-Learning,4,99.0,16.04040404040404,100.0,8
+22,5,Simulated Feedback-Guided Q-Learning,4,99.1,16.175580221997983,100.0,8
+33,1,Baseline Q-Learning,4,98.8,17.975708502024293,100.0,8
+33,1,Simulated Feedback-Guided Q-Learning,4,98.7,17.93515704154002,100.0,8
+33,2,Baseline Q-Learning,4,98.4,17.66869918699187,100.0,8
+33,2,Simulated Feedback-Guided Q-Learning,4,98.5,17.768527918781725,100.0,8
+33,3,Baseline Q-Learning,4,97.6,16.387295081967213,100.0,8
+33,3,Simulated Feedback-Guided Q-Learning,4,97.89999999999999,16.65985699693565,100.0,8
+33,4,Baseline Q-Learning,4,99.1,17.31180625630676,100.0,8
+33,4,Simulated Feedback-Guided Q-Learning,4,98.8,17.11740890688259,100.0,8
+33,5,Baseline Q-Learning,4,98.2,16.879837067209778,100.0,8
+33,5,Simulated Feedback-Guided Q-Learning,4,97.89999999999999,16.839632277834525,100.0,8
+44,1,Baseline Q-Learning,4,98.1,16.672782874617738,100.0,8
+44,1,Simulated Feedback-Guided Q-Learning,4,97.89999999999999,17.172625127681307,100.0,8
+44,2,Baseline Q-Learning,4,98.7,15.866261398176292,100.0,8
+44,2,Simulated Feedback-Guided Q-Learning,4,98.9,16.12133468149646,100.0,8
+44,3,Baseline Q-Learning,4,97.1,17.48918640576725,100.0,8
+44,3,Simulated Feedback-Guided Q-Learning,4,97.5,17.757948717948718,100.0,8
+44,4,Baseline Q-Learning,4,95.5,18.732984293193716,100.0,8
+44,4,Simulated Feedback-Guided Q-Learning,4,95.7,18.557993730407524,100.0,8
+44,5,Baseline Q-Learning,4,98.3,17.393692777212614,100.0,8
+44,5,Simulated Feedback-Guided Q-Learning,4,98.4,17.790650406504064,100.0,8
+55,1,Baseline Q-Learning,4,97.7,17.83623336745138,100.0,8
+55,1,Simulated Feedback-Guided Q-Learning,4,96.89999999999999,17.533539731682147,100.0,8
+55,2,Baseline Q-Learning,4,98.4,17.117886178861788,100.0,8
+55,2,Simulated Feedback-Guided Q-Learning,4,98.5,17.193908629441623,100.0,8
+55,3,Baseline Q-Learning,4,98.2,16.879837067209778,100.0,8
+55,3,Simulated Feedback-Guided Q-Learning,4,98.0,17.16734693877551,100.0,8
+55,4,Baseline Q-Learning,4,98.7,17.33130699088146,100.0,8
+55,4,Simulated Feedback-Guided Q-Learning,4,98.5,17.25482233502538,100.0,8
+55,5,Baseline Q-Learning,4,97.2,17.491769547325102,100.0,8
+55,5,Simulated Feedback-Guided Q-Learning,4,97.39999999999999,17.55441478439425,100.0,8
