@@ -160,3 +160,21 @@ python plot_random_obstacle_results.py
 ```
 
 **Research limitation:** The experimental feedback-guided method uses simulated distance-based guidance. The browser interface accepts actual user feedback, but these are separate experimental setups. Results from simulated feedback should not be described as results from real human participants.
+## Research Findings and Limitations
+
+### Key Findings
+- Compared baseline Q-Learning with simulated feedback-guided Q-Learning.
+- Evaluated learning performance across multiple random obstacle layouts and random seeds.
+- Generated graphs to compare training success rates and evaluation success rates.
+- Recorded experiment results in CSV files for reproducibility.
+
+### Limitations
+- The feedback-guided method uses simulated distance-based guidance, not feedback collected from human participants.
+- Results depend on the environment, obstacle layouts, random seeds, and experimental settings.
+- Similar evaluation success rates do not necessarily indicate that both methods learn equally efficiently.
+
+### Future Improvements
+- Test more random seeds and obstacle layouts.
+- Compare learning speed and average steps with appropriate statistical analysis.
+- Implement a more realistic human-feedback mechanism.
+- Evaluate the method in more complex environments.
