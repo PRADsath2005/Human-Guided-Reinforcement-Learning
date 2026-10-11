@@ -96,3 +96,67 @@ The following graphs visualize the comparison:
 This project compares baseline Q-Learning with a simulated feedback-guided learning approach in a grid-world environment. The results help analyze how simulated guidance affects learning performance.
 
 **Note:** Results are specific to the implemented environment and experimental configuration. They should not be interpreted as proof that real human feedback always improves reinforcement learning.
+## Browser-Based Human Feedback Interface
+
+The project includes a Flask-based web interface that allows a user to guide a Q-Learning agent in a grid-world environment.
+
+### Features
+
+- Interactive grid-world navigation.
+- User feedback through **Good Action** and **Bad Action** buttons.
+- Q-value updates based on user-provided feedback.
+- Episode reset and learning restart controls.
+- Performance statistics and recent episode results.
+- Feedback logging to CSV for analysis.
+
+### Run the Web Application
+
+Install Flask and Matplotlib:
+
+```bash
+python -m pip install flask matplotlib
+```
+
+Start the Flask application:
+
+```bash
+python app.py
+```
+
+Open this address in your browser:
+
+```text
+http://127.0.0.1:5000
+```
+
+Keep the terminal running while using the interface. This is a local development application.
+
+## Experiments with Random Obstacle Layouts
+
+The project also includes experiments comparing baseline Q-Learning with simulated feedback-guided Q-Learning across multiple random obstacle layouts and random seeds.
+
+Files:
+
+- `random_obstacle_experiment.py` — runs the random-obstacle experiments.
+- `comparison_experiment.py` — compares learning performance across independent seeds.
+- `plot_random_obstacle_results.py` — generates experiment comparison graphs.
+- `random_obstacle_results.csv` — stores experiment summary results.
+- `random_obstacle_learning_curves.csv` — stores learning-curve data.
+- `random_obstacle_training_comparison.png` — training success comparison.
+- `random_obstacle_evaluation_comparison.png` — evaluation success comparison.
+- `comparison_learning_curves.png` — learning-curve comparison.
+- `comparison_success_rates.png` — success-rate comparison.
+
+Run the random-obstacle experiment:
+
+```bash
+python random_obstacle_experiment.py
+```
+
+Generate its graphs:
+
+```bash
+python plot_random_obstacle_results.py
+```
+
+**Research limitation:** The experimental feedback-guided method uses simulated distance-based guidance. The browser interface accepts actual user feedback, but these are separate experimental setups. Results from simulated feedback should not be described as results from real human participants.
